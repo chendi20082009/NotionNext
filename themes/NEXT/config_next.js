@@ -2,7 +2,7 @@ const CONFIG_NEXT = {
 
   HOME_BANNER: false, // 首页是否显示大图及标语 [true,false]
   HOME_BANNER_Strings: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
-  HOME_BANNER_IMAGE: '', // 背景图地址
+  HOME_BANNER_IMAGE: './bg_image.jpg', // 背景图地址
 
   NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
@@ -19,7 +19,7 @@ const CONFIG_NEXT = {
   RIGHT_AD: false, // 右侧广告
 
   // 菜单
-  MENU_ABOUT: false, // 显示关于
+  MENU_ABOUT: true, // 显示关于
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: true, // 显示标签
   MENU_ARCHIVE: true, // 显示归档
@@ -29,11 +29,11 @@ const CONFIG_NEXT = {
   WIDGET_PET: false, // 是否显示宠物挂件
   WIDGET_PET_LINK: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_TO_TOP: true, // 是否显示回顶
-  WIDGET_TO_BOTTOM: false, // 显示回底
+  WIDGET_TO_BOTTOM: true, // 显示回底
   WIDGET_DARK_MODE: false, // 显示日间/夜间模式切换
   WIDGET_TOC: true, // 移动端显示悬浮目录
 
-  ARTICLE_SHARE: false, // 文章分享功能
+  ARTICLE_SHARE: true, // 文章分享功能
   ARTICLE_RELATE_POSTS: true, // 相关文章推荐
   ARTICLE_COPYRIGHT: true // 文章版权声明
 
