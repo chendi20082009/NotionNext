@@ -3,7 +3,7 @@ const BLOG = {
   TITLE: process.env.NEXT_PUBLIC_TITLE || '陈迪的博客', // 站点标题
   DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || '郑州大学药学院陈迪', // 站点描述
   AUTHOR: '陈迪', // 作者
-  BIO: '一个普通的高校青年教师🍚', // 作者简介
+  BIO: '一个普通的高校青年教师�👨‍🎓', // 作者简介
   LINK: 'http://chendi.org', // 网站地址
   KEYWORDS: '郑州大学, 药学院, 陈迪', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || 'd69975c2e8fb4209aacc4fb87df8cfb1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
@@ -11,7 +11,7 @@ const BLOG = {
 
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: 2021, // e.g if leave this empty, current year will be used.
-  BEI_AN: '', // 备案号 闽ICP备XXXXXXX
+  BEI_AN: '', // 备案号 豫ICP备XXXXXXX
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'],
   FONT: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
   BACKGROUND_LIGHT: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
@@ -24,11 +24,11 @@ const BLOG = {
   POSTS_SORT_BY: 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: 'tlyong1992@hotmail.com',
-  CONTACT_WEIBO: 'https://weibo.com/tangly1024',
-  CONTACT_TWITTER: 'https://twitter.com/troy1024_1',
-  CONTACT_GITHUB: 'https://github.com/tangly1024',
-  CONTACT_TELEGRAM: 'https://t.me/tangly_1024',
+  CONTACT_EMAIL: 'chendi20082009@qq.com',
+  CONTACT_WEIBO: 'https://weibo.com/chendi20082009',
+  CONTACT_TWITTER: 'https://twitter.com/chendi20082009',
+  CONTACT_GITHUB: 'https://github.com/chendi20082009',
+  CONTACT_TELEGRAM: 'https://t.me/chendi20082009',
 
   // 评论互动 可同时开启 CUSDIS UTTERRANCES GITALK
   COMMENT_CUSDIS_APP_ID: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_APP_ID || '', // data-app-id 36位 see https://cusdis.com/
