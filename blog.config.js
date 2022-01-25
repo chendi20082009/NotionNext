@@ -6,7 +6,7 @@ const BLOG = {
   BIO: '一个普通的干饭人🍚', // 作者简介
   LINK: 'https://tangly1024.com', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || 'd69975c2e8fb4209aacc4fb87df8cfb1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
