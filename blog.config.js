@@ -10,7 +10,7 @@ const BLOG = {
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
 
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
-  SINCE: 2021, // e.g if leave this empty, current year will be used.
+  SINCE: 2022, // e.g if leave this empty, current year will be used.
   BEI_AN: '', // 备案号 豫ICP备XXXXXXX
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'],
   FONT: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
@@ -19,8 +19,8 @@ const BLOG = {
   PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_LIST_STYLE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
-  POST_PREVIEW_LINES: 12, // 预览博客行数
-  POSTS_PER_PAGE: 6, // post counts per page
+  POST_PREVIEW_LINES: 5, // 预览博客行数
+  POSTS_PER_PAGE: 10, // post counts per page
   POSTS_SORT_BY: 'notion', // 排序方式 'date'按时间,'notion'由notion控制
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
