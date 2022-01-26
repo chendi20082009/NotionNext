@@ -26,7 +26,7 @@ const CONFIG_NEXT = {
   MENU_SEARCH: true, // 显示搜索
 
   // 悬浮挂件
-  WIDGET_PET: false, // 是否显示宠物挂件
+  WIDGET_PET: true, // 是否显示宠物挂件
   WIDGET_PET_LINK: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_TO_TOP: true, // 是否显示回顶
   WIDGET_TO_BOTTOM: true, // 显示回底
