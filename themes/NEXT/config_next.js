@@ -4,7 +4,7 @@ const CONFIG_NEXT = {
   HOME_BANNER_Strings: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
   HOME_BANNER_IMAGE: './bg_image.jpg', // 背景图地址
 
-  NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
+  NAV_TYPE: 'fixed', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部、屏幕顶部自动折叠，不固定
 
   POST_LIST_TYPE: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   POST_LIST_COVER: false, // 文章列表显示封面图
