@@ -16,8 +16,7 @@ const MenuButtonGroup = ({ postCount }) => {
     { id: 1, icon: faTh, name: locale.COMMON.CATEGORY, to: '/category', show: CONFIG_NEXT.MENU_CATEGORY },
     { id: 2, icon: faTag, name: locale.COMMON.TAGS, to: '/tag', show: CONFIG_NEXT.MENU_TAG },
     { id: 3, icon: faArchive, name: locale.NAV.ARCHIVE, to: '/archive', slot: archiveSlot, show: CONFIG_NEXT.MENU_ARCHIVE },
-    { id: 4, icon: faUser, name: locale.NAV.ABOUT, to: '/more', show: CONFIG_NEXT.MENU_ABOUT }
-    { id: 5, icon: faUser, name: locale.NAV.ABOUT, to: '/about', show: CONFIG_NEXT.MENU_ABOUT }
+    { id: 4, icon: faUser, name: locale.NAV.ABOUT, to: '/about', show: CONFIG_NEXT.MENU_ABOUT }
   ]
   return <nav id='nav' className='leading-8 text-gray-500 dark:text-gray-400 font-sans'>
       {links.map(link => {
