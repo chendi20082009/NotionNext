@@ -4,7 +4,7 @@ const BLOG = {
   DESCRIPTION: process.env.NEXT_PUBLIC_DESCRIPTION || '郑州大学药学院陈迪', // 站点描述
   AUTHOR: '陈迪', // 作者
   BIO: '一个普通的高校青年教师👨‍🎓', // 作者简介
-  LINK: 'http://chendi.org', // 网站地址
+  LINK: 'https://notebook.chendi.org', // 网站地址
   KEYWORDS: '郑州大学, 药学院, 陈迪', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID: process.env.NOTION_PAGE_ID || 'd69975c2e8fb4209aacc4fb87df8cfb1', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
